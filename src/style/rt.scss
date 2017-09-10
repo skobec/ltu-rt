@@ -1,0 +1,60 @@
+@import "mix";
+
+.rt {
+  margin-bottom: 10rem;
+
+  &__slides {
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  &__quote {
+    margin-bottom: 3rem;
+    text-align: center;
+    font-family: 'Helvetica',
+    'Arial-Unicode',
+    'Segoe UI',
+    'Arial',
+    sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.45;
+
+    &:before {
+      content: "“";
+      margin-right: .2rem;
+      color: $color-light;
+    }
+
+    &:after {
+      content: "”";
+      margin-left: .2rem;
+      color: $color-light;
+    }
+  }
+  &__status {
+    justify-content: center;
+  }
+
+  &__author {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (min-width: $size-s) {
+    &__slides {
+      max-width: $col-8;
+    }
+  }
+
+  @media (min-width: $size-m) {
+
+  }
+
+  @media (min-width: $size-l) {
+
+  }
+
+  @media (min-width: $size-xl) {
+
+  }
+}

@@ -1,0 +1,101 @@
+@import "mix";
+
+.fv-form {
+  color: #fff;
+
+  &__sub-title {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    @include subtitle(12px, 1.6);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  &__title {
+    @include title(40px, 1.4);
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  &__text {
+    @include subtitle(18px, 1.6);
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  &__form_row {
+    display: flex;
+  }
+
+  &__field {
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    outline: none;
+    resize: none;
+    overflow: hidden;
+
+    @include subtitle(16px, 1.5);
+
+    &::placeholder {
+      color: #fff;
+    }
+  }
+  input {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  textarea {
+    width: 100%;
+    height: 1.6rem;
+    margin-bottom: 2rem;
+  }
+
+  &__b1 {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  &__b2 {
+    margin-bottom: 1rem;
+  }
+
+  &__button {
+    margin: 0 auto;
+    display: table;
+  }
+
+  &__path {
+    padding: 0 .5rem;
+    max-width: 470px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $size-s) {
+    input {
+      width: 48%;
+    }
+
+    &__b1 {
+      flex-direction: row;
+    }
+  }
+
+  @media (min-width: $size-m) {
+
+  }
+
+  @media (min-width: $size-l) {
+
+  }
+
+  @media (min-width: $size-xl) {
+
+  }
+}

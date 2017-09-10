@@ -1,0 +1,43 @@
+@import "mix";
+
+.button {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  padding: 17px 40px;
+  margin-bottom: 4px;
+  font-size: 14px;
+  white-space: nowrap;
+
+  &--white {
+    color: #fff;
+  }
+  &:after, &:before {
+    content: '';
+    position: absolute;
+    border: 1px solid;
+    width: 100%;
+    height: 100%;
+  }
+
+  &:after {
+    top: -1px;
+    left: -1px;
+  }
+
+  &:before {
+    top: 1px;
+    left: 1px;
+  }
+  @media (min-width: $size-m) {
+
+  }
+
+  @media (min-width: $size-l) {
+
+  }
+
+  @media (min-width: $size-xl) {
+
+  }
+}

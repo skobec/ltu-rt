@@ -1,0 +1,41 @@
+@import "mix";
+
+.partners {
+  background: $color-light;
+  overflow: hidden;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 0 0 10rem 0;
+
+  &__logo {
+    flex-shrink: 0;
+    width: 150px;
+    height: 80px;
+  }
+  &__logo img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+    &:hover {
+      -webkit-filter: grayscale(0);
+      filter: grayscale(0);
+
+    }
+  }
+
+  @media (min-width: $size-m) {
+
+  }
+
+  @media (min-width: $size-l) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  @media (min-width: $size-xl) {
+
+  }
+}

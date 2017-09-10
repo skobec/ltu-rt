@@ -1,0 +1,45 @@
+@import "mix";
+
+.feedback {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10rem;
+
+  &__view, &__form {
+    flex-grow: 0;
+  }
+
+  &__view {
+    background: url(images/image-380-900.svg) center center;
+  }
+
+  &__picture {
+    width: 900px;
+    max-width: none;
+  }
+
+  &__form {
+    background: $color-light;
+    padding-bottom: 4rem;
+  }
+
+  @media (min-width: $size-s) {
+
+  }
+
+  @media (min-width: $size-m) {
+
+  }
+
+  @media (min-width: $size-l) {
+    flex-direction: row;
+
+    &__view, &__form {
+      width: 50%;
+    }
+  }
+
+  @media (min-width: $size-xl) {
+
+  }
+}

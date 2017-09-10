@@ -1,0 +1,39 @@
+@import "mix";
+
+.fv-view {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 1.5rem;
+  min-height: 380px;
+
+  &__sub-title {
+    color: $sub-color;
+    @include subtitle(12px, 1.6);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+  }
+  &__title {
+    @include title(20px, 1.2);
+  }
+
+  @media (min-width: $size-s) {
+    &__title {
+      font-size: 40px;
+    }
+  }
+
+  @media (min-width: $size-m) {
+
+  }
+
+  @media (min-width: $size-l) {
+
+  }
+
+  @media (min-width: $size-xl) {
+
+  }
+}

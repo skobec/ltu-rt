@@ -1,0 +1,80 @@
+@import "mix";
+
+.ceremony {
+  display: flex;
+  min-height: 380px;
+  flex-direction: column-reverse;
+
+  &__play {
+    display: block;
+    width: 90px;
+    height: 90px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin: -45px -45px 0 0;
+    border-radius: 50%;
+  }
+
+  &__view {
+    min-height: 380px;
+    position: relative;
+    background: url(images/image-380-900.svg) center center;
+  }
+
+  &__content {
+    text-align: center;
+    padding: 3rem 2rem 1rem;
+    flex: 1;
+    background: $color-dark;
+    color: #fff;
+  }
+
+  &__sub {
+    font-size: 14px;
+    margin-bottom: 1rem;
+    @include subtitle(12px, 1);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3.4rem;
+
+    @include title(24px, 1.4);
+  }
+
+  &__text {
+    @include subtitle(18px, 1.7);
+  }
+
+  &__picture {
+    position: absolute;
+    bottom: 0;
+    width: 900px;
+    max-width: none;
+  }
+
+  @media (min-width: $size-m) {
+    align-items: stretch;
+    flex-direction: row;
+
+    &__view {
+      width: 50%;
+    }
+    &__title{
+      font-size: 43px;
+    }
+  }
+
+  @media (min-width: $size-l) {
+
+  }
+
+  @media (min-width: $size-xl) {
+
+  }
+}

@@ -1,0 +1,294 @@
+{
+    "success": true,
+    "body": {
+        "cards": {
+            "526": {
+                "guid": "526",
+                "label": "Visa Gold",
+                "visualInfo": {
+                    "title": "Visa Gold",
+                    "description": "Выгодные предложения и скидки Бесплатный СМС-сервис",
+                    "pictureUrl": "http://10.21.25.242:81/mp/img/v1/gold_visa.jpg",
+                    "fontColor": "ffffff",
+                    "backgroundColor": "C59016",
+                    "boxColor": "FFFFFF",
+                    "boxFontColor": "C59016"
+                },
+                "discountCreditDays": 50,
+                "annualInterest": 230,
+                "annualPayment": 3000,
+                "smsInfoPayment": 0,
+                "depositPayment": 0,
+                "reportPayment": 0,
+                "thanksScale": 5,
+                "withdrawScale": 0,
+                "withdrawMinimum": 0,
+                "monthPayment": 5,
+                "nfc": true,
+                "minLimit": 10000,
+                "maxLimit": 600000,
+                "paymentSystem": "Visa",
+                "currency": "RUR",
+                "segment": "gold",
+                "available": true
+            },
+            "532": {
+                "guid": "532",
+                "label": "Visa Gold \"Аэрофлот\" ",
+                "visualInfo": {
+                    "title": "Visa Gold \"Аэрофлот\" ",
+                    "description": "До 2 миль «Аэрофлот бонус» за каждые 60 рублей оплаты",
+                    "pictureUrl": "http://10.21.25.242:81/mp/img/v1/aeroflot_gold.jpg",
+                    "fontColor": "ffffff",
+                    "backgroundColor": "C59016",
+                    "boxColor": "ffffff",
+                    "boxFontColor": "C59016"
+                },
+                "discountCreditDays": 50,
+                "annualInterest": 230,
+                "annualPayment": 3500,
+                "smsInfoPayment": 0,
+                "depositPayment": 0,
+                "reportPayment": 0,
+                "thanksScale": 5,
+                "withdrawScale": 0,
+                "withdrawMinimum": 0,
+                "monthPayment": 5,
+                "nfc": true,
+                "minLimit": 10000,
+                "maxLimit": 600000,
+                "paymentSystem": "Visa",
+                "currency": "RUR",
+                "segment": "aeroflot",
+                "available": true
+            },
+            "574": {
+                "guid": "574",
+                "label": "Gold MasterCard",
+                "visualInfo": {
+                    "title": "Gold MasterCard",
+                    "description": "Выгодные предложения и скидки Бесплатный СМС-сервис",
+                    "pictureUrl": "http://10.21.25.242:81/mp/img/v1/gold_mc.jpg",
+                    "fontColor": "ffffff",
+                    "backgroundColor": "C59016",
+                    "boxColor": "FFFFFF",
+                    "boxFontColor": "C59016"
+                },
+                "discountCreditDays": 50,
+                "annualInterest": 230,
+                "annualPayment": 3000,
+                "smsInfoPayment": 0,
+                "depositPayment": 0,
+                "reportPayment": 0,
+                "thanksScale": 5,
+                "withdrawScale": 0,
+                "withdrawMinimum": 0,
+                "monthPayment": 5,
+                "nfc": true,
+                "minLimit": 10000,
+                "maxLimit": 600000,
+                "paymentSystem": "MasterCard",
+                "currency": "RUR",
+                "segment": "gold",
+                "available": true
+            },
+            "725": {
+                "guid": "725",
+                "label": "Visa Classic",
+                "visualInfo": {
+                    "title": "Visa Classic",
+                    "description": "Возможность оформления с индивидуальным дизайном",
+                    "pictureUrl": "http://10.21.25.242:81/mp/img/v1/classic_mc.jpg",
+                    "fontColor": "1b1f20",
+                    "backgroundColor": "d7dce0",
+                    "boxColor": "1b1f20",
+                    "boxFontColor": "d7dce0"
+                },
+                "discountCreditDays": 50,
+                "annualInterest": 279,
+                "annualPayment": 750,
+                "smsInfoPayment": 0,
+                "depositPayment": 0,
+                "reportPayment": 0,
+                "thanksScale": 5,
+                "withdrawScale": 0,
+                "withdrawMinimum": 0,
+                "monthPayment": 5,
+                "nfc": true,
+                "minLimit": 20000,
+                "maxLimit": 300000,
+                "paymentSystem": "Visa",
+                "currency": "RUR",
+                "segment": "classic",
+                "available": true
+            },
+            "727": {
+                "guid": "727",
+                "label": "Visa Classic \"Подари жизнь\"",
+                "visualInfo": {
+                    "title": "Visa Classic \"Подари жизнь\"",
+                    "description": "0.3% с покупок в фонд «Подари Жизнь» + 0.3% от банка",
+                    "pictureUrl": "http://10.21.25.242:81/mp/img/v1/giftlife_visa_classic.JPG",
+                    "fontColor": "FFFFFF",
+                    "backgroundColor": "FCBF00",
+                    "boxColor": "FCBF00",
+                    "boxFontColor": "FFFFFF"
+                },
+                "discountCreditDays": 50,
+                "annualInterest": 279,
+                "annualPayment": 900,
+                "smsInfoPayment": 0,
+                "depositPayment": 0,
+                "reportPayment": 0,
+                "thanksScale": 5,
+                "withdrawScale": 0,
+                "withdrawMinimum": 0,
+                "monthPayment": 5,
+                "nfc": true,
+                "minLimit": 30000,
+                "maxLimit": 300000,
+                "paymentSystem": "Visa",
+                "currency": "RUR",
+                "segment": "giftlife",
+                "available": true
+            },
+            "731": {
+                "guid": "731",
+                "label": "Visa Classic \"Аэрофлот\"",
+                "visualInfo": {
+                    "title": "Visa Classic \"Аэрофлот\"",
+                    "description": "До 2 миль «Аэрофлот бонус» за каждые 60 рублей оплаты",
+                    "pictureUrl": "http://10.21.25.242:81/mp/img/v1/aeroflot_standart.jpg",
+                    "fontColor": "ffffff",
+                    "backgroundColor": "2782b9",
+                    "boxColor": "ffffff",
+                    "boxFontColor": "2782b9"
+                },
+                "discountCreditDays": 50,
+                "annualInterest": 279,
+                "annualPayment": 900,
+                "smsInfoPayment": 0,
+                "depositPayment": 0,
+                "reportPayment": 0,
+                "thanksScale": 5,
+                "withdrawScale": 0,
+                "withdrawMinimum": 0,
+                "monthPayment": 5,
+                "nfc": true,
+                "minLimit": 30000,
+                "maxLimit": 300000,
+                "paymentSystem": "Visa",
+                "currency": "RUR",
+                "segment": "aeroflot",
+                "available": true
+            },
+            "773": {
+                "guid": "773",
+                "label": "MasterCard Standard",
+                "visualInfo": {
+                    "title": "MasterCard Standard",
+                    "description": "Возможность оформления с индивидуальным дизайном",
+                    "pictureUrl": "http://10.21.25.242:81/mp/img/v1/classic_visa.jpg",
+                    "fontColor": "1b1f20",
+                    "backgroundColor": "d7dce0",
+                    "boxColor": "1b1f20",
+                    "boxFontColor": "d7dce0"
+                },
+                "discountCreditDays": 50,
+                "annualInterest": 279,
+                "annualPayment": 750,
+                "smsInfoPayment": 0,
+                "depositPayment": 0,
+                "reportPayment": 0,
+                "thanksScale": 5,
+                "withdrawScale": 0,
+                "withdrawMinimum": 0,
+                "monthPayment": 5,
+                "nfc": true,
+                "minLimit": 20000,
+                "maxLimit": 300000,
+                "paymentSystem": "MasterCard",
+                "currency": "RUR",
+                "segment": "classic",
+                "available": true
+            }
+        },
+        "currencies": {
+            "RUR": {
+                "isoLat": "RUR",
+                "name": "рубль",
+                "cDigit": "2",
+                "countryIso": "RU",
+                "countryName": "Российская Федерация",
+                "code": "810"
+            }
+        },
+        "segments": [
+            {
+                "id": "gold",
+                "title": "Золотая карта",
+                "description": "Выгодные предложения и скидки Бесплатный СМС-сервис",
+                "cardsProductIds": [
+                    "526",
+                    "574"
+                ],
+                "featuredProductId": "526",
+                "paymentSystems": [
+                    "Visa",
+                    "MasterCard"
+                ],
+                "minLimit": 10000,
+                "maxLimit": 600000
+            },
+            {
+                "id": "classic",
+                "title": "Классическая карта",
+                "description": "Возможность оформления с индивидуальным дизайном",
+                "cardsProductIds": [
+                    "725",
+                    "773"
+                ],
+                "featuredProductId": "725",
+                "paymentSystems": [
+                    "Visa",
+                    "MasterCard"
+                ],
+                "minLimit": 20000,
+                "maxLimit": 300000
+            },
+            {
+                "id": "aeroflot",
+                "title": "Аэрофлот бонус",
+                "description": "До 2 миль «Аэрофлот бонус» за каждые 60 рублей оплаты",
+                "cardsProductIds": [
+                    "731",
+                    "532"
+                ],
+                "featuredProductId": "731",
+                "paymentSystems": [
+                    "Visa"
+                ],
+                "minLimit": 10000,
+                "maxLimit": 600000
+            },
+            {
+                "id": "giftlife",
+                "title": "Подари жизнь",
+                "description": "0.3% с покупок в фонд «Подари Жизнь» + 0.3% от банка",
+                "cardsProductIds": [
+                    "727"
+                ],
+                "featuredProductId": "727",
+                "paymentSystems": [
+                    "Visa"
+                ],
+                "minLimit": 30000,
+                "maxLimit": 300000
+            }
+        ],
+        "limit": 50000,
+        "minLimit": 10000,
+        "maxLimit": 600000
+    },
+    "messages": []
+}

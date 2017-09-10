@@ -1,0 +1,88 @@
+@import "mix";
+
+.as {
+  background: $color-dark;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-bottom: 6rem;
+  padding-bottom: 5rem;
+
+  //.status{
+  //  width: 100%;
+  //  flex: 1;
+  //}
+  &__limit {
+    padding: 0 1rem;
+  }
+  &__view {
+    text-align: center;
+  }
+
+  &__block {
+    flex: 1;
+    margin-top: 5rem;
+    padding-left: 1rem;
+    display: flex;
+    align-items: flex-end;
+  }
+  &__sub {
+    margin-top: 5.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: 4px;
+    @include subtitle(18px, 1.2);
+  }
+
+  &__title {
+    font-size: 30px;
+    margin-bottom: 4rem;
+    @include title(40px, 1.2);
+  }
+
+  &__text {
+    font-size: 20px;
+    margin-bottom: 3.5rem;
+    @include subtitle(20px, 1.7);
+  }
+
+  &__slides {
+    display: flex;
+    margin-bottom: 2rem;
+    //width: 100%;
+    //flex: 1;
+  }
+
+  &__slide {
+    padding-right: 2rem;
+  }
+
+  @media (min-width: $size-s) {
+
+  }
+
+  @media (min-width: $size-m) {
+    margin-bottom: 8rem;
+    align-items: stretch;
+    flex-direction: row;
+
+    &__view {
+      width: $col-5;
+    }
+
+    &__limit {
+      max-width: 300px;
+      margin: 0 auto;
+    }
+    &__block {
+      padding-left: 0;
+    }
+  }
+
+  @media (min-width: $size-l) {
+
+  }
+
+  @media (min-width: $size-xl) {
+
+  }
+}

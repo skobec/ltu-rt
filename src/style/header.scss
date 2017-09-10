@@ -1,0 +1,42 @@
+@import "mix";
+
+.header {
+  margin: 2rem 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  &__logo {
+    width: 100px;
+  }
+
+  &__navigation {
+    display: none;
+    max-width: 600px;
+    flex: 1;
+
+  }
+
+  &__item {
+    text-decoration: none;
+  }
+
+  @media (min-width: $size-s) {
+
+  }
+
+  @media (min-width: $size-m) {
+
+  }
+
+  @media (min-width: $size-l) {
+    &__navigation {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  @media (min-width: $size-xl) {
+
+  }
+}

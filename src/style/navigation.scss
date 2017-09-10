@@ -1,0 +1,30 @@
+@import "mix";
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+
+  &__item {
+    text-decoration: none;
+    color: #000;
+    line-height: 2;
+  }
+
+  &__active {
+    text-decoration: none;
+    color: $color-light;
+    border-bottom: 1px solid;
+
+  }
+  @media (min-width: $size-m) {
+
+  }
+
+  @media (min-width: $size-l) {
+
+  }
+
+  @media (min-width: $size-xl) {
+
+  }
+}

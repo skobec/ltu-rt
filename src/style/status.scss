@@ -1,0 +1,39 @@
+@import "mix";
+
+.status {
+  display: flex;
+  align-items: center;
+
+  padding: 0;
+
+  &--black {
+    color: #000;
+  }
+
+  &__item {
+    height: 10px;
+    width: 5rem;
+    list-style: none;
+    border-bottom: 1px solid;
+
+    &:hover {
+      border-bottom: 3px solid;
+      cursor: pointer;
+    }
+  }
+
+  &__active {
+    border-bottom: 3px solid;
+  }
+  @media (min-width: $size-m) {
+
+  }
+
+  @media (min-width: $size-l) {
+
+  }
+
+  @media (min-width: $size-xl) {
+
+  }
+}

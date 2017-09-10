@@ -1,0 +1,99 @@
+@import "mix";
+
+@font-face {
+  font-family: Georgia;
+  src: url(fonts/georgia.ttf);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url(fonts/helvetica_neue/HelveticaNeueCyr-Thin.otf) ;
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url(fonts/helvetica_neue/HelveticaNeueCyr-UltraLight.otf) ;
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+.acc-title {
+  &__sub {
+    @include subtitle(12px, 1.4);
+    color: $sub-color;
+    letter-spacing: 5px;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+
+    &:after {
+      content: '';
+      display: inline-block;
+      height: 1px;
+      width: 11rem;
+      background: $sub-color;
+      margin-left: 1rem;
+      position: relative;
+      top: -.25rem;
+    }
+  }
+
+  &__main {
+    @include title(24px, 1.2);
+    font-weight: bold;
+  }
+
+  @media (min-width: $size-m) {
+    &__main {
+      @include title(50px, 1.2);
+    }
+
+    &__sub {
+      @include subtitle(14px, 1.4);
+    }
+  }
+
+  @media (min-width: $size-l) {
+
+  }
+
+  @media (min-width: $size-xl) {
+
+  }
+}
+
+.cla-title {
+  max-width: 750px;
+  margin: 0 auto 2rem;
+
+  &__sub {
+    color: $sub-color;
+    @include subtitle(12px, 1.6);
+    letter-spacing: 4px;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__main {
+    @include title(24px, 1.2);
+
+    text-align: center;
+  }
+
+  @media (min-width: $size-s) {
+    &__main {
+      @include title(50px, 1.2);
+    }
+    &__sub {
+      @include subtitle(14px, 1.6);
+    }
+  }
+}
+

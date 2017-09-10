@@ -1,0 +1,147 @@
+@import "mix";
+
+.ts {
+  position: relative;
+  margin-bottom: 6rem;
+
+  &__view {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  &__body {
+    flex: 1;
+    background: $color-light;
+    padding-top: 4rem;
+    padding-right: 1rem;
+    padding-bottom: 4rem;
+    padding-left: 1rem;
+  }
+
+  &__header {
+    padding-top: 5px;
+    max-width: 300px;
+    @include subtitle(20px, 1.6);
+    color: $grey;
+  }
+
+  &__content {
+    max-width: 300px;
+    @include subtitle(20px, 1.6);
+    margin-bottom: 2rem;
+    color: #fff;
+  }
+
+  &__slides {
+    position: relative;
+    z-index: 1;
+  }
+
+  &__slide {
+    //width: 430px;
+  }
+
+  &__title {
+    max-width: 600px;
+    margin-bottom: 3rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  &__button {
+    padding-bottom: 10px;
+    color: #fff;
+    margin-left: 2rem;
+    text-decoration: none;
+  }
+
+  &__pictures {
+    //height: 630px;
+    display: flex;
+    position: relative;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+  }
+  &__nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #fff;
+    padding-right: 2rem;
+    background: $color-dark;
+    height: 14rem;
+    width: 100%;
+
+    position: absolute;
+    bottom: -2rem;
+    left: 0;
+  }
+
+  @media (min-width: $size-s) {
+
+  }
+
+
+
+  @media (max-width: $size-l) {
+    &__nav {
+      justify-content: flex-start;
+      padding-left: 266px;
+    }
+  }
+  @media (max-width: 554px) {
+    &__nav {
+      justify-content: flex-end;
+      padding-left: 0;
+    }
+  }
+  @media (min-width: $size-l) {
+    margin-bottom: 10rem;
+
+    &__nav {
+      display: flex;
+      justify-content: flex-end;
+      padding-left: 0;
+    }
+
+    &__body {
+      background: none;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    &__view {
+      flex-direction: row;
+      &:before {
+        content: '';
+        display: block;
+        background: $color-light;
+        height: 26rem;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+      }
+    }
+    &__pictures {
+      margin-left: $col-2;
+    }
+    &__nav {
+      margin-left: 2rem;
+      width: 430px;
+    }
+    &__title {
+      margin-left: $col-3;
+    }
+    &__header {
+      padding-bottom: 9rem;
+    }
+  }
+
+  @media (min-width: $size-xl) {
+
+  }
+}

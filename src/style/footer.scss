@@ -1,0 +1,94 @@
+@import "mix";
+
+.footer {
+  background: $color-footer-bg;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  //overflow: hidden;
+
+  &:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    height: .7rem;
+    background: $color-footer-line;
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+    @include subtitle(20px, 1.5);
+  }
+
+  &__address {
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  &__link {
+    color: #fff;
+    text-decoration: none;
+    @include subtitle(15px, 1.6);
+    display: inline-block;
+  }
+
+  &__links {
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  &__text {
+    @include subtitle(15px, 1.6);
+  }
+
+  &__soc {
+    margin-left: 1rem;
+    width: 14rem;
+  }
+
+  @media (min-width: $size-s) {
+
+  }
+
+  @media (min-width: $size-m) {
+    flex-direction: row;
+
+    &__block {
+      width: 50%;
+      flex-direction: row;
+    }
+
+    &__address {
+      margin-left: $col-2;
+      width: 260px;
+    }
+
+    &__links {
+      padding-left: 0;
+      padding-bottom: 0
+    }
+    &__address {
+      padding-left: 0;
+      padding-bottom: 0
+    }
+  }
+
+  @media (min-width: $size-l) {
+
+  }
+
+  @media (min-width: $size-xl) {
+
+  }
+}
